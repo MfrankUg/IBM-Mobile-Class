@@ -6,6 +6,7 @@ void greet({required String name, String greeting = 'Hello'}) {
 }
 
 void main() {
-  greet(name: "Jerry");
-  greet(name: "");
+  greet(name: "Jerry"); //greeting is optional
+  greet(name: "Tom",greeting: 'Hi' );
 }
+ 
