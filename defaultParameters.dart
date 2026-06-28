@@ -1,3 +1,6 @@
+// Default values for parameters
+// Used with positional and named optional parameters
+
 String describe(String name, {int age = 30, String city = "Unknown"}) {
   return '$name is $age years old and likes in $city';
 }
