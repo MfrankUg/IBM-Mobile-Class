@@ -1,5 +1,5 @@
 // Functions are reusable blocks of code that perform a specific task
-
+// Methodes are functions that are associated with an object
 void greet() {
   print("Hello, World");
 }
