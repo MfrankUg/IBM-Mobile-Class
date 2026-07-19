@@ -11,6 +11,4 @@ void main() {
   print(sine);
   print(cosine);
   print(random);
-
-
 }
