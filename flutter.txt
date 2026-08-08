@@ -1,0 +1,47 @@
+Flutter Basic Widgets
+
+Text - String
+Text('Hello')
+
+Image
+Image.network('https://freepick.com/tree.png')
+
+Icons
+Icons(Icons.star)
+
+ElevatedButton
+
+ElevatedButton(
+
+onPressed: () {},
+child: Text('Press me'),
+
+)
+
+Layout Widgets
+// they align Widgets 
+
+column(
+    childern: <Widget> [
+        Text('Hi'),
+         Text('How are you doing'),
+
+    ],
+)
+
+Row(
+    childern: <Widget> [
+        Text('Text1'),
+        Text('Text2'),
+
+    ]
+)
+
+Container(
+    color: Color.blue,
+    child: Text('Hi'),
+)
+IconButton(
+    icon: Icon(Icons.star),
+    onPressed: (){},
+)
